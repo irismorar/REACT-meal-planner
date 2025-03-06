@@ -1,0 +1,15 @@
+export const mealOptions = [
+  "Pancakes",
+  "Green Salad",
+  "Pasta",
+  "Pizza",
+  "Chicken Soup",
+  "Fruits Salad",
+  "Icecream",
+  "French Fries",
+  "Fish and Chips",
+  "Beef Steak",
+  "Meat Balls",
+  "Vegetable Soup",
+  "Cacao Cake",
+];

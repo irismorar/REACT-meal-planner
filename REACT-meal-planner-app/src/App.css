@@ -1,0 +1,113 @@
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #cfb66f;
+  user-select: none;
+  font-size: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+  color: #3a2e0a;
+  font-size: 5em;
+  line-height: 1.1;
+  text-align: center;
+}
+
+.main_container{
+  width: 60vw;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin-bottom: 5em;
+}
+
+h2{
+  font-size: 3em;
+  line-height: 1.1;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 2em;
+}
+
+li {
+  line-height: 1.5em;
+  font-size: 2em;
+  padding: .5em 0;
+}
+
+.meals_container{
+  width: 50%;
+  border-right: 1px solid hsla(0, 100%, 0%, .2);
+}
+
+.meal_li {
+  color: #4e4c44;
+  border-bottom: 1px solid hsla(0, 100%, 0%, .2);
+}
+
+.meals_container:first-child{
+  color:#3a2e0a;
+}
+
+.breakfast_meals_container{
+  width: 33.3%;
+  background-color: #4e4c44;
+  color: hsla(0, 0%, 100%, .7);
+  border-right: 1px solid hsla(0, 0%, 100%, .7);
+}
+
+.lunch_meals_container{
+  width: 33.3%;
+  background-color: #4e4c44;
+  color: hsla(0, 0%, 100%, .7);
+  border-right: 1px solid hsla(0, 0%, 100%, .7);
+}
+
+.dinner_meals_container{
+  width: 33.3%;
+  background-color: #4e4c44;
+  color: hsla(0, 0%, 100%, .7);
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: .3em .7em;
+  font-size: .7em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #696761;
+  color: antiquewhite;
+  cursor: pointer;
+  margin-right: .5em;
+}
+button:hover {
+  opacity: .9;
+  border: 1px solid #bbb;
+}
+
+button[disabled]{
+  opacity: .5;
+}
+
+section {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  text-align: center;
+}
